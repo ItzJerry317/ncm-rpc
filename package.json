@@ -1,0 +1,32 @@
+{
+  "name": "ncm-rpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence for NetEase Cloud Music client",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzJerry317/ncm-rpc.git"
+  },
+  "keywords": [
+    "discord",
+    "rich",
+    "presence"
+  ],
+  "author": "ItzJerry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItzJerry317/ncm-rpc/issues"
+  },
+  "homepage": "https://github.com/ItzJerry317/ncm-rpc#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "electron": "^30.0.8"
+  },
+  "devDependencies": {
+    "electron": "^30.0.8"
+  }
+}
