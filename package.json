@@ -4,7 +4,7 @@
   "description": "Discord Rich Presence for NetEase Cloud Music client",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js",
+    "test": "node ./src/index.js",
     "start": "electron ."
   },
   "repository": {
@@ -24,7 +24,9 @@
   "homepage": "https://github.com/ItzJerry317/ncm-rpc#readme",
   "dependencies": {
     "chalk": "^4.0.0",
-    "electron": "^30.0.8"
+    "discord-rpc": "^4.0.1",
+    "electron": "^30.0.8",
+    "hmc-win32": "^1.4.92"
   },
   "devDependencies": {
     "electron": "^30.0.8"
