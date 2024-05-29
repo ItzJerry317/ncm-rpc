@@ -23,7 +23,7 @@ function getNCMPid() {
     for (var i = 0; i < namelist.length; i++){
       for (var j = 0; j < windowPidsArray.length; j++){
         if (namelist[i].pid == windowPidsArray[j]) {
-          console.log(chalk.green("[Function getNCMPid()] 成功找到网易云窗口进程! pid:"+namelist[i].pid))
+          // console.log(chalk.green("[Function getNCMPid()] 成功找到网易云窗口进程! pid:"+namelist[i].pid))
           ncmpid = namelist[i].pid
           return ncmpid
         }

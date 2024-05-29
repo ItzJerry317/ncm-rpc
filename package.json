@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/ItzJerry317/ncm-rpc#readme",
   "dependencies": {
+    "axios": "^1.7.2",
     "chalk": "^4.0.0",
     "discord-rpc": "^4.0.1",
     "electron": "^30.0.8",
