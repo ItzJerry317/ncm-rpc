@@ -1,7 +1,6 @@
 //Dependencies
 const chalk = require("chalk")
 const DiscordRPC = require('discord-rpc');
-const hmc = require('hmc-win32');
 const clientId = '1137949966921371738';
 const ncm = require("./ncm.js")
 

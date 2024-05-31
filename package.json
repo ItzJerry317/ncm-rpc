@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./src/index.js",
-    "start": "electron ."
+    "start": "electron ./src/electron/electron.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
     "chalk": "^4.0.0",
     "discord-rpc": "^4.0.1",
     "electron": "^30.0.8",
-    "hmc-win32": "^1.4.92"
+    "hmc-win32": "^1.4.92",
+    "mdui": "^2.1.1"
   },
   "devDependencies": {
     "electron": "^30.0.8"
